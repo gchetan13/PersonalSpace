@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.java8.date&apos; to &apos;Java8Exploring/src&apos;&#x0D;&#x0A;- Original project: &apos;JavaRevisited&apos;&#x0D;&#x0A;- Destination element: &apos;Java8Exploring/src&apos;&#x0D;&#x0A;- Original element: &apos;JavaRevisited/src/com.java8.date&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Java8Exploring/src" element1="/src&lt;com.java8.date" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1567514844169" version="1.0"/>
+</session>

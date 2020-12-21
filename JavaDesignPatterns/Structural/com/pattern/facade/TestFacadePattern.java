@@ -1,0 +1,22 @@
+package com.pattern.facade;
+
+import java.sql.Connection;
+
+public class TestFacadePattern {
+	public static void main(String[] args) {
+		String tableName="Employee";
+		
+		//generating MySql HTML report and Oracle PDF report without using Facade
+		Connection con = MySqlHelper.getMySqlDBConnection();
+		MySqlHelper mySqlHelper = new MySqlHelper();
+		mySqlHelper.generateMySqlHTMLReport(tableName, con);
+		
+		Connection con1 = MyOracleHelper.getOracleDBConnection();
+		MyOracleHelper oracleHelper = new MyOracleHelper();
+		oracleHelper.generateOraclePDFReport(tableName, con1);
+		
+		//generating MySql HTML report and Oracle PDF report using Facade
+		HelperFacade.generateReport(HelperFacade.DBTypes.MYSQL, HelperFacade.ReportTypes.HTML, tableName);
+		HelperFacade.generateReport(HelperFacade.DBTypes.ORACLE, HelperFacade.ReportTypes.PDF, tableName);
+	}
+}

@@ -1,0 +1,104 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean id="employee1" class="com.spring.models.Employee" scope="singleton">
+<constructor-arg value="121" ></constructor-arg>
+<constructor-arg value="chetan"  />
+<constructor-arg value="Insurance"  />
+</bean>
+<bean id="employee2" class="com.spring.models.Employee" scope="prototype" lazy-init="true">
+<constructor-arg value="Surabhi" ></constructor-arg>
+<constructor-arg value="121"  />
+<constructor-arg value="Insurance"  />
+</bean>
+<bean id="employee3" class="com.spring.models.Employee" scope="singleton">
+<constructor-arg value="101" ></constructor-arg>
+<constructor-arg value="Jagat"  />
+<constructor-arg value="Insurance" />
+<constructor-arg value="12,11,12,121" type="int[]"> </constructor-arg>
+</bean>
+<bean id="employee4" class="com.spring.models.Employee">
+<constructor-arg value="101" ></constructor-arg>
+<constructor-arg value="Jagat"  />
+<constructor-arg value="Insurance" />
+<constructor-arg value="12,11,12,121" type="int[]"> </constructor-arg>
+<constructor-arg><list><value>Infosys</value><value>TCS</value></list></constructor-arg>
+</bean>
+
+<bean id="student" class="com.spring.models.StudentSingleton" scope="singleton" depends-on="address">
+<constructor-arg value="Chetan"></constructor-arg>
+<constructor-arg ref="address"></constructor-arg>
+</bean>
+<!-- <bean id="student" class="com.spring.models.StudentSingleton" scope="singleton">
+<constructor-arg value="Chetan"></constructor-arg>
+<constructor-arg ref="address1"></constructor-arg>
+</bean> -->
+<bean id="address" class="com.spring.models.AddressPrototype" scope="prototype">
+<constructor-arg value="Indore"></constructor-arg>
+</bean>
+<bean id="address1" class="com.spring.models.AddressPrototype" scope="prototype">
+<constructor-arg value="Bhopal"></constructor-arg>
+</bean>
+
+
+<!-- <bean  id="singletoneEmployee" class="com.spring.models.SingletonEmployee" scope="singleton">
+
+<lookup-method bean="address" name="getAddressPrototype"/>
+</bean> -->
+
+<bean id="requestProcessor" class="com.spring.models.RequestProcessor"  >
+<!--     <lookup-method name="createValidator" bean="validator" /> -->
+</bean>
+
+<bean id="validator" class="com.spring.models.RequestValidator" scope="prototype" />
+<!-- <bean id="abstractEmployee" class="com.spring.models.AbstractEmployee" abstract="true">
+<property name="name" value="Chetan"></property>
+ </bean> -->
+ <bean id="busineesObj1" class="com.spring.models.BusinessObj1" scope="prototype"> 
+ <property name="obj2" ref="businessObj2"></property>
+ </bean>
+  <bean id="busineesObj11" class="com.spring.models.BusinessObj1" scope="prototype"> 
+ <property name="obj2" ref="businessObj2"></property>
+ </bean>
+ <bean id="businessObj2" class="com.spring.models.BusinessObj2" scope="singleton"></bean>
+ <bean id="employeeCallBack" class="com.spring.models.EmployeeCallback">
+<constructor-arg  value="Chetan"> </constructor-arg>
+</bean>
+<bean id="autowiredEmployee" class="com.spring.models.AutowiredEmployee">
+<property name="name" value="Chetan"></property>
+</bean>
+<bean id="autowiredAddress" class="com.spring.models.AutowiredAddress">
+<property name="city" value="Indore" ></property>
+ </bean>
+<!-- Inner beans -->
+<bean id="triangle" class="com.spring.models.Triangle">
+   <property name="pointA" ref="pointA"></property>
+   <property name="pointB">
+      <bean class="com.spring.models.Point">
+  <property name="x" value="-20"></property>
+  <property name="y" value="0"></property>
+      </bean>
+   </property>
+   <property name="pointC">
+      <bean class="com.spring.models.Point">
+ <property name="x" value="20"></property>
+ <property name="y" value="0"></property>
+      </bean>
+   </property>
+</bean>
+<bean class="com.spring.models.Point" id="pointA">
+   <property name="x" value="0"></property>
+   <property name="y" value="0"></property>
+</bean>
+
+<context:annotation-config></context:annotation-config>
+</beans>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=JavaRevisited/src&lt;com.java.generics{G.java[G" modifiers="1" timestamp="1567173596511"/>
+<typeInfo handle="=JavaRevisited/src&lt;com.java.generics{A.java[A" modifiers="513" timestamp="1567173568167"/>
+<typeInfo handle="=JavaRevisited/src&lt;com.java.generics{B.java[B" modifiers="513" timestamp="1567173576295"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=Java8Exploring/src&lt;com.java8.interfaces{MyInterface.java[MyInterface" modifiers="513" timestamp="1572853611937"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(Iterable.class[Iterable" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(Objects.class[Objects" modifiers="49" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util.function(Predicate.class[Predicate" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util.function(Consumer.class[Consumer" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util.stream(Stream.class[Stream" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.security(Security.class[Security" modifiers="49" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;sun.misc(Launcher.class[Launcher" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util.function(BiConsumer.class[BiConsumer" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;sun.misc(Launcher$AppClassLoader.class[AppClassLoader" modifiers="8" timestamp="1519129946897"/>
+<typeInfo handle="=HelloSpringMVC/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;sun.misc(Launcher$AppClassLoader.class[AppClassLoader" modifiers="8" timestamp="1558091022352"/>
+<typeInfo handle="=HelloSpringMVC/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1558091022352"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=Demo/C:\/Users\/cgupta31.EAD\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.4.Final\/hibernate-core-5.4.4.Final.jar&lt;org.hibernate.boot.jaxb.internal.stax(LocalXmlResourceResolver.class[LocalXmlResourceResolver" modifiers="33" timestamp="1574776141806"/>
+<typeInfo handle="=Demo/C:\/Users\/cgupta31.EAD\/.m2\/repository\/org\/hibernate\/hibernate-ehcache\/5.4.4.Final\/hibernate-ehcache-5.4.4.Final.jar&lt;org.hibernate.cache.ehcache.internal(EhcacheRegionFactory.class[EhcacheRegionFactory" modifiers="33" timestamp="1575036294045"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(List.class[List" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(Map.class[Map" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=DeclarationAndAccessControl/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=Demo/C:\/Users\/cgupta31.EAD\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.4.Final\/hibernate-core-5.4.4.Final.jar&lt;org.hibernate(Session.class[Session" modifiers="1537" timestamp="1574776141806"/>
+<typeInfo handle="=Demo/C:\/Users\/cgupta31.EAD\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.4.Final\/hibernate-core-5.4.4.Final.jar&lt;org.hibernate(SessionFactory.class[SessionFactory" modifiers="1537" timestamp="1574776141806"/>
+<typeInfo handle="=Demo/C:\/Users\/cgupta31.EAD\/.m2\/repository\/org\/jboss\/spec\/javax\/transaction\/jboss-transaction-api_1.2_spec\/1.1.1.Final\/jboss-transaction-api_1.2_spec-1.1.1.Final.jar&lt;javax.transaction(Transaction.class[Transaction" modifiers="1537" timestamp="1562743856098"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.io(FileReader.class[FileReader" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(AutoCloseable.class[AutoCloseable" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.io(Closeable.class[Closeable" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(System.class[System" modifiers="49" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util.concurrent(BlockingQueue.class[BlockingQueue" modifiers="1537" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1519129946897"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(StringBuilder.class[StringBuilder" modifiers="49" timestamp="1519129946897"/>
+<typeInfo handle="=QuartzExample/D:\/Jar\/quartz-2.1.5.jar&lt;org.quartz.impl(JobDetailImpl.class[JobDetailImpl" modifiers="33" timestamp="1582271307587"/>
+<typeInfo handle="=JavaDesignPatterns/Structural&lt;com.pattern.composite{Shape.java[Shape" modifiers="513" timestamp="1583301484200"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(Random.class[Random" modifiers="33" timestamp="1519129946897"/>
+<typeInfo handle="=eAppBHFAutomation/D:\/eAppAutomation_Jars\/selenium-server-standalone-3.13.0.jar&lt;org.apache.commons.lang3(RandomUtils.class[RandomUtils" modifiers="33" timestamp="1533645830075"/>
+<typeInfo handle="=JavaDesignPatterns/Structural&lt;com.pattern.flyweight{Shape.java[Shape" modifiers="513" timestamp="1583388276780"/>
+<typeInfo handle="=JavaDesignPatterns/Structural&lt;com.pattern.bridge{Shape.java[Shape" modifiers="1025" timestamp="1583477642450"/>
+<typeInfo handle="=JavaDesignPatterns/Structural&lt;com.pattern.bridge{Color.java[Color" modifiers="513" timestamp="1583477410063"/>
+<typeInfo handle="=JavaDesignPatterns/Structural&lt;com.pattern.decorator{CarDecorator.java[CarDecorator" modifiers="1" timestamp="1583490445915"/>
+<typeInfo handle="=CloneProject/C:\/Program Files \(x86)\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.util(Scanner.class[Scanner" modifiers="49" timestamp="1519129946897"/>
+</typeInfoHistroy>

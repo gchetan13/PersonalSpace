@@ -1,0 +1,28 @@
+package com.datastructure.test;
+
+import com.datastructure.tree.BinarySearchTree;
+
+public class TestBinarySearchTree {
+	public static void main(String[] args) {
+	BinarySearchTree tree =  new BinarySearchTree();
+	tree.insert(50);
+	tree.insert(40);
+	tree.insert(10);
+	tree.insert(30);
+	tree.insert(60);
+	tree.insert(65);
+	tree.insert(55);
+	tree.insert(70);
+	tree.insert(52);
+	tree.insert(56);
+	//tree.inorder();
+	System.out.println("--------------------");
+//	tree.preorder();
+	System.out.println("--------------------");
+//	tree.postOrder();
+	//tree.delete(50);
+	tree.inorder();
+	System.out.println(tree.findSuccessor(52));
+	
+	}
+}
